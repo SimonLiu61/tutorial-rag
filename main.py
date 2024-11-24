@@ -9,7 +9,6 @@ from ui import ConsoleUI
 logger = get_logger(__name__)
 
 def main():
-    # 加载环境变量
     load_dotenv()
     
     ui = ConsoleUI()
